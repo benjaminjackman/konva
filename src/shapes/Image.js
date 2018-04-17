@@ -240,5 +240,6 @@
       callback(image);
     };
     img.src = url;
+    img.crossOrigin = "Anonymous";
   };
 })();
